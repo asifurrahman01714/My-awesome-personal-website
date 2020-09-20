@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: white ! important ;
+}
+header{
+    background: #161616;
+    clip-path: polygon(0 0, 100% 100%, 70% 80%, 0 100%);
+}
